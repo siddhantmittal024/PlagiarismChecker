@@ -1,6 +1,4 @@
 import os
-import matplotlib.pyplot as plotGraph
-from tkinter import *
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
@@ -8,6 +6,8 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from queue import PriorityQueue
 import re
+import matplotlib.pyplot as plotGraph
+from tkinter import *
          
 def openFile(filename):
         f=open(filename,"r")
