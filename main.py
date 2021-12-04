@@ -43,7 +43,10 @@ def Preprocess(filename):
 
 docList = {}
 
+
 def preProcessData():
+    testDataPath = os.path.join(os.getcwd(), 'database')
+    os.chdir(testDataPath) 
     files = [doc for doc in os.listdir() if (doc.endswith(
         '.txt') and (doc != 'DataStore.txt' and doc != 'temp.txt'))]
     for doc in files:
