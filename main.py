@@ -43,7 +43,6 @@ def Preprocess(filename):
 
 docList = {}
 
-
 def preProcessData():
     testDataPath = os.path.join(os.getcwd(), 'database')
     os.chdir(testDataPath) 
